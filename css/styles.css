@@ -23,8 +23,21 @@
     color: floralwhite;
 }
 
-.address{
+address{
     font-size: 80%;
     margin : 0px auto;
     color: 0f0f0f;
+}
+
+.border-bottom{
+    border-bottom:"1px ridge";
+}
+
+body{
+    padding:50px 0px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark{
+    background-color: #512da8;
 }
