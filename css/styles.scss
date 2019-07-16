@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-dark:#512DA8;
 $background-light:#9575CD;
 $background-pale: #D1C4E9;
+$modalheader-x-color:floralwhite;
 // Height variables
 $carousel-item-height:300px;
 @mixin zero-margin($pad-up-dn, $pad-left-right) {
@@ -61,6 +62,7 @@ html {
 
 .carousel {
     background-color: $background-dark;
+    margin-top: 50px;
     .carousel-item {
         height: $carousel-item-height;
         img {
@@ -80,4 +82,21 @@ html {
 
 .hoverbtn:hover {
     box-shadow: 2px 4px #7e37ad;
+}
+
+.modal-header {
+    background-color: $background-dark;
+    color: $modalheader-x-color;
+    button {
+        color: $modalheader-x-color;
+        &:hover {
+            color: white;
+        }
+    }
+    border-color: $background-dark;
+}
+
+.modal-body {
+    background-color: $background-light;
+    margin-top: 0px;
 }
